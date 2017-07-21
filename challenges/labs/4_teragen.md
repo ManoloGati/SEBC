@@ -88,4 +88,32 @@ Found 13 items
 -rw-r--r--   3 saturn saturn  546133300 2017-07-21 19:23 /user/saturn/tgen/part-m-00010
 -rw-r--r--   3 saturn saturn  546133300 2017-07-21 19:23 /user/saturn/tgen/part-m-00011
 
+[root@ip-172-31-43-231 hadoop-0.20-mapreduce]# sudo -u hdfs hadoop fsck -blocks /user/saturn
+DEPRECATED: Use of this script to execute hdfs command is deprecated.
+Instead use the hdfs command for it.
+
+Connecting to namenode via http://ip-172-31-41-99.us-west-2.compute.internal:50070
+FSCK started by hdfs (auth:SIMPLE) from /172.31.43.231 for path /user/saturn at Fri Jul 21 19:26:26 UTC 2017
+.............Status: HEALTHY
+ Total size:    6553600000 B
+ Total dirs:    3
+ Total files:   13
+ Total symlinks:                0
+ Total blocks (validated):      60 (avg. block size 109226666 B)
+ Minimally replicated blocks:   60 (100.0 %)
+ Over-replicated blocks:        0 (0.0 %)
+ Under-replicated blocks:       0 (0.0 %)
+ Mis-replicated blocks:         0 (0.0 %)
+ Default replication factor:    3
+ Average block replication:     3.0
+ Corrupt blocks:                0
+ Missing replicas:              0 (0.0 %)
+ Number of data-nodes:          4
+ Number of racks:               1
+FSCK ended at Fri Jul 21 19:26:26 UTC 2017 in 6 milliseconds
+
+
+The filesystem under path '/user/saturn' is HEALTHY
+
+
 
