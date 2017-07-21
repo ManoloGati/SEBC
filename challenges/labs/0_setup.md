@@ -2,7 +2,7 @@ Challenge Setup
 
 Provider: AWS
 
-Instancias: 172.31.41.99 -> ip-172-31-41-99.us-west-2.compute.internal
+Instancias: 172.31.41.99 -> ip-172-31-41-99.us-west-2.compute.internal -> MariaDB -> CM
 			172.31.34.102 -> ip-172-31-34-102.us-west-2.compute.internal
 			172.31.44.49 -> ip-172-31-44-49.us-west-2.compute.internal
 			172.31.46.76 -> ip-172-31-46-76.us-west-2.compute.internal
