@@ -1,3 +1,5 @@
+Challenge Setup
+
 Provider: AWS
 
 Instancias: 172.31.41.99 -> ip-172-31-41-99.us-west-2.compute.internal
@@ -19,3 +21,12 @@ $ useradd haley -u 2900 -g comets
 
 $ groupadd planets
 $ useradd saturn -u 2800 -g planets
+
+
+
+
+
+
+
+
+
